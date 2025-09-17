@@ -8,15 +8,6 @@ jobs:
     steps:
       - name: Echo Hello
         run: echo "Hello World!"
-  echo-goodbye:
-    runs-on: ubutnu-latest
-    steps:
-      - name: Successful step
-        run: |
-          echo "I will succeed"
-          exit 0
-      - name: Say-goodbye
-        run: echo "Good Bye"
     
 
   
